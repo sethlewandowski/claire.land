@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Acne Sucks - Claire Landers</title>
+    <meta name="description" content="Here are the 6 things that I believe helped heal my acne.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../styles.css?ver=1.1" >
+    <meta property="og:title" content="Acne Sucks">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://claire.land/blog/acne-sucks">
+    <meta property="og:image" content="https://claire.land/images/claire.jpg">
+    <meta property="og:description" content="Here are the 6 things that I believe helped heal my acne.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Acne Sucks">
+    <meta name="twitter:description" content="Here are the 6 things that I believe helped heal my acne.">
+    <meta name="twitter:image" content="https://claire.land/images/acne-2.jpg">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160281077-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-160281077-1');
+    </script>
+
+  </head>
+
+  <body class="blog-post">
+    <header class="flex-container" style="background-image: url(../images/acne-header.jpg)">
+      <div class="nav-bar" id="nav">
+        <a id="logo" href="../">Claire Landers</a>
+        <nav>
+          <label for="toggle">&#9776;</label><input type="checkbox" id="toggle"/>
+          <div class="menu">
+            <a href="../blog">Blog</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <h1>Acne Sucks</h1>
+      <p>Let’s talk about acne. If you’ve struggled with acne, then you know how much it sucks. I mean this literally. It sucks from your confidence, your self-esteem, and your joy because everytime you look in the mirror all you see are the red, swollen pimples covering your face. It’s hard. If you’ve experienced this or are currently experiencing this, I feel for you because I’ve been there too.</p>
+      <p>Thank God for friends, family, and significant others who stand alongside us and tell us how beautiful we are despite the stuff covering our skin and who work with us to find the solution that we so desperately want and need.</p>
+      <p>For me, that has been my boyfriend Seth. I started dating Seth 2 weeks before my lovely clear skin went AWOL.</p>
+      <p>Acne always plans a convenient entrance, doesn’t it? Thankfully, Seth is an incredibly supportive person and willingly committed to helping me find a solution to my issue. I instantly thought that I needed to see the dermatologist and just get back on my medication (Birth Control), but Seth was sure that wasn’t going to solve the underlying problem, even if it successfully masked the symptoms.</p>
+      <p>He started asking me questions about my overall health.</p>
+      <ul>
+        <li>“How much water are you drinking everyday?”</li>
+        <li>“Are you stressed?”</li>
+        <li>“How much dairy do you consume?”</li>
+        <li>“How does gluten make you feel?”</li>
+      </ul>
+
+      <p>Guys, I thought I was a relatively healthy person. Yeah, I consumed too much sugar and I could cut back on the fast food, but I worked out occasionally and I wasn’t overweight. When I was willing to be honest with myself, these questions started opening up a new world for me and I want to share it with you!</p>
+      <p>So for starters, here’s a few pics of me in April 2019.</p>
+      <flexbox>
+        <img style="max-width: 250px" alt="picture of the side of my face" class="gallery" src="../images/acne-1.jpg">
+        <img style="max-width: 250px" alt="picture of the front of my face"class="gallery" src="../images/acne-2.jpg">
+        <img style="max-width: 250px" alt="picture of the side of my face"class="gallery" src="../images/acne-3.jpg">
+      </flexbox>
+      <h2>Here are the 6 things that I believe helped heal my acne:</h2>
+      <ol>
+        <li>More water</li>
+        <li>Less dairy</li>
+        <li>Less gluten (for the most part) and fried foods</li>
+        <li>Less sugar</li>
+        <li>Accepting the process and trying to lower stress levels</li>
+        <li>Birth control (temporarily) - supplementing with prenatal vitamins when the time is right</li>
+      </ol>
+
+      <p>Let’s break these down a little bit ---</p>
+      <h3>-More water-</h3>
+      <p>This is so important. Our body requires water in order to run it’s natural processes. Water helps move food through the digestive tract. If you’re not drinking enough water, you’re most likely dealing with constipation issues. And guess what happens when those toxins aren’t escaping through your bowels like they’re supposed to? They start to escape through your skin. They have to go somewhere.</p>
+
+      <p>This was me! I never really thought about how much water I drank on a daily basis so it never hit me. This was the very first step in my healing journey. For some, this might be common sense and come really easily to them. For me, it has been a constant challenge. I still forget to drink water every now and then. It’s not that I don’t like water, I just never really <i>feel</i> thirsty. The best advice I can give you is - <strong>Just chug it</strong>. Sipping on it throughout the day will never work for some of us.</p>
+
+      <h3>-Less dairy-</h3>
+        <p>This was the first food group that I cut out of my diet. We don’t need dairy, people. Dairy causes a lot of inflammation in our bodies which lead to a lot of the diseases we are fighting as a population in the US. We aren’t designed to process cow hormones. Have you considered that cow milk is designed to grow a baby calf to adult size as fast as possible?</p>
+
+        <p>Conventional dairy products (what the majority of America consumes) are actually quite terrible for us especially in the amount that they are consumed. This was surprisingly the easiest thing for me to drop and I’m a huge cheese lover! Or, <i>was</i> a huge cheese lover…?</p>
+
+      <h3>-Less gluten-</h3>
+        <p>Gluten is in sooo much. It’s in our chips, breads, pastries, beer, broths, and salad dressings for goodness sake! Gluten bogs down our digestive tract and causes inflammation in our bodies. It’s bad news. If you’re dealing with any health issues, try cutting gluten. You might be surprised by how much better you feel.</p>
+
+      <h3>-Less sugar-</h3>
+        <p>In my opinion, this is the hardest to cut. I’m a sugar addict. I love to wind down in the evenings while eating something naughty, especially gummy candies. Twin Snakes by Haribo to be exact. They are my kryptonite. Sugar is literally poison in our bodies and its aim is to take us out. Does that seem kind of dark? Well, it should because it's true.</p>
+
+        <p>Sugar disrupts everything in our body. Cutting back on sugar has made a HUGE impact in my life. When I eat high amounts of sugar now, my skin becomes itchy and my face starts to become irritated. We don’t know the effect sugar has on our bodies until we step away from it for a while and then come back to it. Try doing this, it will shock you.</p>
+
+      <h3>-Accept the process & lower your stress level-</h3>
+        <p>I’m still working on this one. This applies to everything in life, not just acne. When you’re constantly worried or stressed, your body is living in a constant state of fight or flight. The effect this has on your body is huge. It can disrupt your skin, sleep, and overall health. Stress kills. Accepting the journey that we are on and choosing to love ourselves through it is so very important. Positive energy is a requirement for natural healing.</p>
+
+      <h3>-Birth control-</h3>
+        <p>Although I don’t believe birth control healed my skin, it did offer an amazing amount of relief that I couldn’t get fast enough by simply changing my diet. I was desperate for a “quick fix”. [Aren’t we all?] So I decided to get back on birth control (I had been off of it for 4 months) in May of 2019. My skin started healing about 6 weeks after and I stayed on it until October of 2019.</p>
+
+        <p>Like I said, I don’t believe that it healed my skin, I think it just helped mask my symptoms. This made me so much more comfortable in my daily life though. Modern medicine is a blessing. There’s no shame in utilizing it when needed. When I decided to get off of the medication in October, I switched to a prenatal vitamin to help balance my hormones. I didn’t want to completely shock my body and send my skin back into a panic. I really believe this helped and would highly recommend it to anyone wanting to wean themselves off of birth control.</p>
+
+      <h3>Give it a try!</h3>
+        <p>I’m about 10 months into my journey at this point with only ~2 months of serious commitment under my belt. I wish I wouldn’t have waited so long to commit, so I feel the urge to share this with you all. I feel better than I have ever felt before. I have regular bowel movements. I sleep through the night. I have energy. And admittedly, most important of all, I have <strong>clear skin</strong>.</p>
+        <p>I eat a whole foods, plant based diet. I stay away from all processed foods and food substitutes. I still leave space to eat things that are bad for me, but I don’t enjoy them nearly as much as I used to because I can really feel the effects that they have on my body now.</p>
+        <p>Except for banana ice cream, there’s always room for more of that. ;)</p>
+      <h3>My Face on March 10th, 2020.</h3>
+      <flexbox>
+        <img style="max-width: 250px" alt="picture of the side of my face" class="gallery" src="../images/after-1.jpg">
+        <img style="max-width: 250px" alt="picture of the front of my face" class="gallery" src="../images/after-2.jpg">
+        <img style="max-width: 250px" alt="picture of the side of my face" class="gallery" src="../images/after-3.jpg">
+      </flexbox>
+        <p>I challenge you to try this! Trust me, if I can do this, you can too.</p>
+      <h2><a href="../blog">Back to Blog</a></h2>
+    </main>
+  
+    <footer>
+      <p class="flex-container">
+        <a class="flex-item" href="https://www.instagram.com/claireland/"><img src="../images/instagram.png" alt="Instagram Logo" class="social-link"></a>
+        <a class="flex-item" href="https://www.linkedin.com/in/claireland/"><img src="../images/linkedin.png" alt="linkedin logo" class="social-link"></a>
+      </p>
+    </footer>
+    <script src="../js/scroll.js"></script>
+  </body>
+</html>

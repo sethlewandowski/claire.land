@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Just Do - Claire Landers</title>
+    <meta name="description" content="If you’re anything like me, you might frequently find yourself drowning in the depths of self-doubt and fear of the unknown.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../styles.css?ver=1.1" >
+    <meta property="og:title" content="Just Do">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://claire.land/blog/just-do">
+    <meta property="og:image" content="https://claire.land/images/do.jpg">
+    <meta property="og:description" content="If you’re anything like me, you might frequently find yourself drowning in the depths of self-doubt and fear of the unknown.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Just Do">
+    <meta name="twitter:description" content="If you’re anything like me, you might frequently find yourself drowning in the depths of self-doubt and fear of the unknown.">
+    <meta name="twitter:image" content="https://claire.land/images/do.jpg">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160281077-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-160281077-1');
+    </script>
+
+  </head>
+
+  <body class="blog-post">
+    <header class="flex-container" style="background-image: url(../images/do.jpg)">
+      <div class="nav-bar" id="nav">
+        <a id="logo" href="../">Claire Landers</a>
+        <nav>
+          <label for="toggle">&#9776;</label><input type="checkbox" id="toggle"/>
+          <div class="menu">
+            <a href="../blog">Blog</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <h1>Just Do</h1>
+      
+      <p>If you’re anything like me, you might frequently find yourself drowning in the depths of self-doubt and fear of the unknown.</p>
+      <p>I tend to fluctuate, but when these thoughts or feelings come over me, they can be very hard to overcome. Having ideas or dreams that are seemingly unattainable can be incredibly overwhelming. On the flip side, where I tend to find myself, feeling as though I lack ideas or dreams for the future can feel the same way. All the while keeping you right where you are, never progressing forward, always wondering - “What if?”</p>
+      <p>We spend hours every day consuming content. Idealizing the lives of Instagrammers and Youtubers. Thinking:
+        <ul>
+          <li>“how do they do it?”</li>
+          <li>“I want her body”</li>
+          <li>“I need her discipline”</li>
+          <li>“I wish I was this creative”</li>
+        </ul>
+      </p>
+      <p>Instead of putting our phones down and deciding to do the very thing the people we admire did, start creating instead of consuming. That’s the only thing that separates us from them. That’s the only thing that frees us from the “what if” mindset.</p>
+      <p>Something huge happened in my life earlier this year. My lack of dreams/interests turned into something I can’t stop thinking about. I’ve discovered a passion for healthy living, primarily - what I allow to enter my body. There’s so much to learn, I’m slowly peeling back the layers of the onion. As I’m learning, trying new things, and watching my health transform, I feel the urge to share my journey. </p>
+      <p>As I mentioned earlier, I’m the queen of self-doubt. 
+        <ul>
+          <li>“I’m not a medical professional!” </li>
+          <li>“I don’t have enough experience!” </li>
+          <li>“I’m not interesting enough” </li>
+          <li>“Will people take me seriously?” (the list goes on) </li>
+        </ul>
+      </p>
+      <p>Thoughts like these continually cross my mind. But I don’t want to continue asking “what if?” So here I am! I hope you’ll follow along. </p>
+      <p>Maybe this will only resonate with one person, maybe it will resonate with 1,000 people or maybe nobody cares. That’s okay.</p>
+      <p>As I’ve been challenged to do this, I wanted to do the same for you: Start creating more than you consume. Put yourself out there, share your interests & see where they take you.</p>
+      <p>We all start somewhere. We just have to be willing to start.</p>
+    
+    <h2><a href="../blog">Back to Blog</a></h2>
+
+    </main>
+
+    
+  
+    <footer>
+      <p class="flex-container">
+        <a class="flex-item" href="https://www.instagram.com/claireland/"><img src="../images/instagram.png" alt="Instagram Logo" class="social-link"></a>
+        <a class="flex-item" href="https://www.linkedin.com/in/claireland/"><img src="../images/linkedin.png" alt="linkedin logo" class="social-link"></a>
+      </p>
+    </footer>
+    <script src="../js/scroll.js"></script>
+  </body>
+</html>
