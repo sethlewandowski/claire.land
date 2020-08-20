@@ -7,6 +7,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
 /*Site Wide*/
 
+:root {
+  --accent-color: #A9E4F5;
+  --primary-color: #F4B9A9;
+  --secondary-color: #cfcfcf;
+  --white-background: #ffffff;
+  --off-white-background: #f7f7f7;
+  --tertiary-color:  #FDFAFC;
+  --button-color: #EC0772;
+  --nav-bar-color: #ebd2e5;
+  --title-font: 'Quicksand', sans-serif;
+  --normal-font: 'Open Sans', sans-serif;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   width: 100%;
@@ -20,8 +33,8 @@ a {
   color: #8E9EA9;
 }
 main {
-  padding: 40px 0px;
-  max-width: 900px;
+  padding-top: 175px; /* keeps nav bar from covering page content */
+  max-width: 700px;
   margin: 0 auto;
 }
 hr {
@@ -79,31 +92,22 @@ img.home-page{
 header {
   top: 0;
   left: 0;
-  height: 70vh;
   width: 100%;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/header-background.jpg');
-  background-size: cover;
-  background-position: center;
   text-align: center;
   align-items: center;
-}
-header a{
-  margin: 20px;
 }
 header.simple-nav{
   height: 0;
   margin-bottom: 60px;
 }
 #logo{
+  color: white; 
   text-decoration: none;
-  color: #520015;
-  float: left;
-  font-size: 35px;
-  margin-top:20px;
+  font-size: 50px;
 }
 .nav-bar{
+  background-color: var(--primary-color);
   top: 0;
-  height: 70px;
   width: 100%;
   position: fixed;
   z-index:100;
@@ -145,35 +149,46 @@ nav a {
 #banner-text{
   color:white;
 }
-
-/* NAV SPECIFIC SECTION */
-nav{
-    text-align: right;
-    color: #520015;
-  }
+.nav-bar div{
+  text-align: center;
+}
+#nav-1{
+  background-color: var(--primary-color);
+  height: 100px;
+  line-height: 100px;
+}
+#nav-2{
+  background-color: var(--secondary-color);
+  height: 50px;
+  line-height: 50px; /* set line-height = height for vertical centering */
+}
 .menu a{
   clear: right;
-  line-height: 70px;
-  color: #520015;
+  color: white;
 }
 .menu a:hover{
-  text-decoration: underline;
-}
-header label{
-  margin: 18px 30px 0 0;
-  font-size: 35px;
-  display: none;
-  float: right;
-  position: fixed;
-  right:0;
-  top: 0;
-  z-index: 99;
-}
-#toggle{
-  display:none;
+  text-decoration: underline; /* underline nav link when hovered over */
 }
 a.nav-colored{
   color:white;
+}
+#hamburger{
+  display:none;
+}
+#top-bun, #patty, #bottom-bun {
+  border-radius: 25px;
+  height: 3px;
+  background-color: white;
+  margin-top: 10px;
+}
+#top-bun{
+  width: 40px;
+}
+#patty{
+  width: 30px;
+}
+#bottom-bun{
+  width: 20px;
 }
 
 /*Buttons and Calls to Action*/
@@ -282,6 +297,8 @@ div.team {
 }
 .centered{
   text-align: center;
+  margin: 0 auto;
+  display: block;
 }
 .gallery img{
   margin: 20px 0px 20px 0px;
@@ -294,7 +311,7 @@ div.team {
 
 /*Footer CSS*/
 footer {
-  background-color: #8E9EA9;
+  background-color: var(--primary-color);
   color: white;
   width: 100%;
   text-align: center;
@@ -335,6 +352,7 @@ footer a {
 
   main{
     max-width: 90%;
+    padding-top: 100px;
   }
   img{
     max-width: 100%;
@@ -347,25 +365,45 @@ footer a {
     font-size: 24px;
   }
   #logo{
-    font-size: 22px;
+    font-size: 30px;
     margin: 20px 0 0 15px;
   }
   .menu {
+    height: 0;
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+    top: 60px;
+    left: 0;
     text-align: center;
-    width: 100%;
-    display: none;
+    background-color: var(--primary-color);
+    overflow-x: hidden;
+    transition: 0.5s;
+    margin-top: 0;
   }
   .menu a{
+    padding: 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
     display: block;
-    margin: 0;
-    padding-right:0;
+    transition: 0.3s;
   }
-  #toggle:checked + .menu {
-    display: block;
+  #nav-2{
+    height: 0; /* remove height on mobile */
+    top: 100px; /* when drawer opens, place it at the bottom of existing nav */
+  }
+  #hamburger{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 50px;
+    height: 50px;
+    left: 30px;
     position: fixed;
-    background-color: #8E9EA9;
-    top: 0;
+    top: 25px;  
   }
+
   #header-img {
   float: left;
   padding: 15px;
