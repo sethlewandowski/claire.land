@@ -9,14 +9,23 @@ app.use(express.static("public"));
 // Set the view engine to ejs
 app.set("view engine", "ejs");
 
+app.get('/', (req, res) => {
+	res.render('pages/index');
+});
+
+/*
 // Define Routes
 const homeRoute = require("./routes/root");
 const blogRoute = require("./routes/blog");
 const notFoundRoute = require("./routes/404");
+*/
 
+/*
 //Assign Routes
 app.use(homeRoute);
 app.use(blogRoute);
 app.use(notFoundRoute);
+*/
+
 
 app.listen(3001);
