@@ -3,15 +3,12 @@ const express = require("express");
 const ejs = require("ejs");
 const app = express();
 
-// Render Static Files
-app.use(express.static("public"));
 
 // Set the view engine to ejs
 app.set("view engine", "ejs");
 
-app.get('/', (req, res) => {
-	res.render('pages/index');
-});
+// Render Static Files
+app.use(express.static(__dirname + 'views/pages'));
 
 /*
 // Define Routes

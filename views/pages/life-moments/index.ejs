@@ -2,20 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Claire Landers</title>
-    <meta name="description" content="Whole Foods Plant Based Blogger" />
+    <title>Life Moments - Claire Landers</title>
+    <meta name="description" content="Life Moments" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="../styles.css" />
     <meta property="og:title" content="Whole Foods Plant Based Blogger" />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://claire.land/" />
+    <meta property="og:url" content="https://claire.land/life-moments" />
     <meta property="og:image" content="https://claire.land/images/claire.jpg" />
-    <meta property="og:description" content="Whole Foods Plant Based Blogger" />
+    <meta property="og:description" content="Life Moments" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Claire Landers" />
     <meta
       name="twitter:description"
-      content="Whole Foods Plant Based Blogger"
+      content="Life Moments"
     />
     <meta
       name="twitter:image"
@@ -27,7 +27,7 @@
     <%- include('../../includes/_banner-header'); %>
 
     <main>
-      <h1 class="centered">My Blog</h1>
+      <h1 class="centered">Life Moments</h1>
 
       <section class="flex-container blog-menu">
         <a
@@ -41,60 +41,11 @@
           </div>
         </a>
 
-        <a
-          class="dark-text flex-item flex-container"
-          href="just-do"
-          style="background-image: url(../images/do.jpg)"
-        >
-          <div class="blog-item-text-background">
-            <h1 class="card-header">Just Do</h1>
-            <p class="card-date">March 25, 2020</p>
-          </div>
-        </a>
-
-        <a
-          href="acne-sucks"
-          class="flex-item flex-container"
-          style="background-image: url(../images/acne-header.jpg)"
-        >
-          <div class="blog-item-text-background">
-            <h1 class="card-header">Acne Sucks</h1>
-            <p class="card-date">March 20, 2020</p>
-          </div>
-        </a>
-
-        <a href="blog/2020" class="flex-item flex-container" style="">
-          <div class="blog-item-text-background">
-            <h1 class="card-header">2020</h1>
-            <p class="card-date">August 26, 2020</p>
-          </div>
-        </a>
-
-        <a href="blog/social-media" class="flex-item flex-container" style="">
-          <div class="blog-item-text-background">
-            <h1 class="card-header">Social Media</h1>
-            <p class="card-date">August 26, 2020</p>
-          </div>
-        </a>
+        
       </section>
     </main>
 
-    <footer>
-      <p class="flex-container">
-        <a class="flex-item" href="https://www.instagram.com/claireland/"
-          ><img
-            src="../images/instagram.png"
-            alt="Instagram Logo"
-            class="social-link"
-        /></a>
-        <a class="flex-item" href="https://www.linkedin.com/in/claireland/"
-          ><img
-            src="../images/linkedin.png"
-            alt="linkedin logo"
-            class="social-link"
-        /></a>
-      </p>
-    </footer>
+    <%- include('../../includes/_footer') %>
     <script src="../js/scroll.js"></script>
   </body>
 </html>
